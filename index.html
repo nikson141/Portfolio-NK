@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GameDev Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Share+Tech+Mono&family=Rajdhani:wght@300;400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="scanlines"></div>
+  <div class="grid-bg"></div>
+
+  <nav id="navbar">
+    <div class="nav-logo">
+      <span class="bracket">[</span>
+      <span class="logo-text">NK</span>
+      <span class="bracket">]</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#about" class="nav-link"><span class="nav-num">01.</span>About</a></li>
+      <li><a href="#skills" class="nav-link"><span class="nav-num">02.</span>Skills</a></li>
+      <li><a href="#projects" class="nav-link"><span class="nav-num">03.</span>Projects</a></li>
+         </ul>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#about" class="mob-link">About</a>
+    <a href="#skills" class="mob-link">Skills</a>
+    <a href="#projects" class="mob-link">Projects</a>
+    <a href="#contact" class="mob-link">Contact</a>
+  </div>
+
+  <section id="about" class="hero">
+    <div class="hero-inner">
+      <div class="hero-left">
+        <p class="hero-tag">// GAME DEVELOPER</p>
+        <h1 class="hero-name">
+          <span class="fn">Nika</span>
+          <span class="ln">Kvartskhava</span>
+        </h1>
+        <p class="hero-bio">
+          Passionate Game Developer with expertise in Unity Engine and C# programming, specializing in PC and mobile game development. With over a year of hands-on experience in Unity, I have developed a strong foundation in game mechanics, AI systems, and immersive gameplay experiences. My diverse skill set extends beyond programming to include audio manipulation, visual effects, and technical problem-solving.
+
+I am committed to creating high-quality games and actively contribute to the gaming community through my GitHub repositories and itch.io portfolio. My experience as a Lecture Assistant has enhanced my ability to communicate complex technical concepts and collaborate effectively with teams. I thrive on new challenges and am particularly drawn to innovative projects in the gaming industry.
+        </p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+        </div>
+        <div class="socials">
+          <a href="https://github.com/nikson141" class="social-link" title="GitHub">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.63-5.37-12-12-12z"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/nika-kvartskhava-0282b4217/" class="social-link" title="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          </a>
+          <a href="https://ghostdev-1910.itch.io/" class="social-link" title="itch.io">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M3.13 1.338C2.08 1.96.02 4.328 0 4.95v1.03c0 1.303 1.22 2.45 2.325 2.45 1.33 0 2.436-1.102 2.436-2.41 0 1.308 1.07 2.41 2.4 2.41 1.328 0 2.362-1.102 2.362-2.41 0 1.308 1.104 2.41 2.434 2.41h.03c1.33 0 2.432-1.102 2.432-2.41 0 1.308 1.035 2.41 2.364 2.41 1.328 0 2.4-1.102 2.4-2.41 0 1.308 1.104 2.41 2.434 2.41C22.78 8.43 24 7.282 24 5.98V4.95c-.02-.622-2.08-2.99-3.13-3.612C19.603.684 12.863.6 12 .6c-.864 0-7.604.084-8.87.738zM12 10.34c-.673 0-1.29.076-1.854.207C8.592 11.05 7.62 12.248 7.62 13.6v4.512c0 .742.56 1.338 1.256 1.338h6.248c.696 0 1.256-.596 1.256-1.338V13.6c0-1.352-.972-2.55-2.526-3.053A8.05 8.05 0 0012 10.34zm-4.636 5.714c-.7 0-1.27.573-1.27 1.274 0 .7.57 1.27 1.27 1.27.703 0 1.274-.57 1.274-1.27 0-.7-.571-1.274-1.274-1.274zm9.27 0c-.7 0-1.27.573-1.27 1.274 0 .7.57 1.27 1.27 1.27.703 0 1.274-.57 1.274-1.27 0-.7-.571-1.274-1.274-1.274z"/></svg>
+          </a>
+          <a href="https://discord.gg/E8uTPrABS" class="social-link" title="Discord">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.317 4.37a19.791 19.791 0 00-4.885-1.515.074.074 0 00-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 00-5.487 0 12.64 12.64 0 00-.617-1.25.077.077 0 00-.079-.037A19.736 19.736 0 003.677 4.37a.07.07 0 00-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 00.031.057 19.9 19.9 0 005.993 3.03.078.078 0 00.084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 00-.041-.106 13.107 13.107 0 01-1.872-.892.077.077 0 01-.008-.128 10.2 10.2 0 00.372-.292.074.074 0 01.077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 01.078.01c.12.098.246.198.373.292a.077.077 0 01-.006.127 12.299 12.299 0 01-1.873.892.077.077 0 00-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 00.084.028 19.839 19.839 0 006.002-3.03.077.077 0 00.032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 00-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="hero-right">
+        <div class="avatar-wrap">
+          <div class="avatar-border"></div>
+          <div class="avatar-corner tl"></div>
+          <div class="avatar-corner tr"></div>
+          <div class="avatar-corner bl"></div>
+          <div class="avatar-corner br"></div>
+          <img src="473362772_1719658112303882_4553993145508246678_n (6).jpg" alt="Nika Kvartskhava" class="avatar-img" />
+          <div class="avatar-glitch"></div>
+        </div>
+        <div class="status-bar">
+          <span class="status-dot"></span>
+          <span class="status-text">Available for hire</span>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-hint">
+      <span>scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title"><span class="accent">//</span> Skills <span class="title-line"></span></h2>
+      </div>
+      <div class="skills-grid">
+
+        <div class="skill-card">
+          <div class="skill-icon">🎮</div>
+          <h3 class="skill-cat">Game Engines</h3>
+          <ul class="skill-list">
+            <li><span class="skill-name">Unity</span><div class="skill-bar"><div class="skill-fill" style="--pct:92%"></div></div></li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">💻</div>
+          <h3 class="skill-cat">Programming</h3>
+          <ul class="skill-list">
+            <li><span class="skill-name">C#</span><div class="skill-bar"><div class="skill-fill" style="--pct:95%"></div></div></li>
+            <li><span class="skill-name">Unity</span><div class="skill-bar"><div class="skill-fill" style="--pct:78%"></div></div></li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">🎨</div>
+          <h3 class="skill-cat">Editing</h3>
+          <ul class="skill-list">
+            <li><span class="skill-name">After Effects</span><div class="skill-bar"><div class="skill-fill" style="--pct:70%"></div></div></li>
+            <li><span class="skill-name">Sony Vegas</span><div class="skill-bar"><div class="skill-fill" style="--pct:80%"></div></div></li>
+            <li><span class="skill-name">Premiere Pro</span><div class="skill-bar"><div class="skill-fill" style="--pct:88%"></div></div></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section section-dark">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title"><span class="accent">//</span> Game Projects <span class="title-line"></span></h2>
+    </div>
+    <div class="projects-grid projects-grid--two">
+
+      <div class="project-card">
+        <div class="project-thumb">
+          <div class="game-frame">
+            <div class="thumb-placeholder" style="--col:#ff4466">
+              <img src="Shlovo.png" alt="Shlovo" class="thumb-img" />
+            </div>
+          </div>
+          <div class="project-tags">
+            <span class="tag">Unity</span>
+            <span class="tag">C#</span>
+            <span class="tag">Action</span>
+          </div>
+        </div>
+        <div class="project-body">
+          <h3 class="project-title">Shlovo</h3>
+          <p class="project-desc">Jump on your motorcycle and hit the streets of Tbilisi!
+You are a courier with one mission — deliver every order on time.
+
+But as simple as it sounds, things quickly get out of hand as you progress through the city's wildest neighborhoods.</p>
+          <div class="project-links">
+            <a href="https://apps.apple.com/us/app/shlovo/id6758864821" class="proj-btn">Play Release</a>
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-thumb">
+          <div class="game-frame">
+            <div class="thumb-placeholder" style="--col:#ff4466">
+              <img src="Images/Game Icon.png" alt="Margal Koch" class="thumb-img thumb-img--contain" />
+            </div>
+          </div>
+          <div class="project-tags">
+            <span class="tag">Unity</span>
+            <span class="tag">C#</span>
+            <span class="tag">Action</span>
+            <span class="tag">2D Platformer</span>
+          </div>
+        </div>
+        <div class="project-body">
+          <h3 class="project-title">Margal Koch</h3>
+          <p class="project-desc">Jimni Mebonia the main character of the game, 
+            lost in a different world and needs to find his way back home. His goal is to find the way out from this world and avoid 
+          the dangers that lurk around every corner.</p>
+          <div class="project-links">
+            <a href="https://www.youtube.com/watch?v=CMZmVgRJMic" class="proj-btn">See Demo</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <span class="footer-logo">[NK]</span>
+      <p class="footer-copy">© 2026 Nika Kvartskhava · Built with passion &amp; caffeine</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
